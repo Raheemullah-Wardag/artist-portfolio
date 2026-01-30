@@ -91,16 +91,7 @@ export default function PortfolioGrid({ items }) {
                     </div>
                 )}
                 
-                <style jsx global>{`
-                    @keyframes fadeIn {
-                        from { opacity: 0; transform: translateY(20px); }
-                        to { opacity: 1; transform: translateY(0); }
-                    }
-                    .animate-fadeIn {
-                        animation: fadeIn 0.6s ease-out forwards;
-                    }
-                `}</style>
-
+                
             </main>
         </div>
     )
